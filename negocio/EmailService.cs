@@ -31,6 +31,7 @@ namespace negocio
             email.IsBodyHtml = true;
             email.Body = "<h1>Reporte de materias a las que se ha inscripto</h1> <br>Hola, te inscribiste.... bla bla";
             //email.Body = cuerpo;
+            email.Body=email.Body+"Hasta luego";
 
         }
 

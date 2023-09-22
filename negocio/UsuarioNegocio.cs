@@ -15,6 +15,7 @@ namespace negocio
         {
             //AccesoDatos datos = new AccesoDatos();
             //datos.AccesoDatosAcc();
+            //estamos probando Git
             string ruta = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Administrador\source\repos\login.mdb";
             string consulta = "SELECT * FROM palabras";
             // Create a connection    
